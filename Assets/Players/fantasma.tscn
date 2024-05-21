@@ -1,0 +1,44 @@
+[gd_scene load_steps=7 format=3 uid="uid://da7ch3dn47eug"]
+
+[ext_resource type="Script" path="res://Assets/Scripts/fantasma.gd" id="1_0ntyj"]
+[ext_resource type="Texture2D" uid="uid://dajg3xy2e8718" path="res://Assets/maps/Players/fantasma.png" id="1_6osht"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_q4qp1"]
+height = 28.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dt012"]
+atlas = ExtResource("1_6osht")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e56he"]
+atlas = ExtResource("1_6osht")
+region = Rect2(0, 100, 100, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o23ce"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dt012")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e56he")
+}],
+"loop": true,
+"name": &"normal",
+"speed": 5.0
+}]
+
+[node name="Fantasma" type="CharacterBody2D"]
+script = ExtResource("1_0ntyj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(153, 67)
+shape = SubResource("CapsuleShape2D_q4qp1")
+
+[node name="fantasma2d" type="AnimatedSprite2D" parent="."]
+position = Vector2(154.125, 63.75)
+scale = Vector2(0.4775, 0.455)
+sprite_frames = SubResource("SpriteFrames_o23ce")
+animation = &"normal"
+autoplay = "normal"
+frame_progress = 0.18279
