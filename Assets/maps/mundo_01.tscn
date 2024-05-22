@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bdom6dr8q2p01" path="res://Assets/maps/Untitled.png" id="1_hpu3j"]
 [ext_resource type="Script" path="res://Assets/Scripts/mundo_01.gd" id="1_pga0b"]
-[ext_resource type="PackedScene" uid="uid://da7ch3dn47eug" path="res://Assets/maps/Players/fantasma.tscn" id="2_6h57w"]
+[ext_resource type="PackedScene" uid="uid://da7ch3dn47eug" path="res://Assets/Players/fantasma.tscn" id="2_6h57w"]
 [ext_resource type="PackedScene" uid="uid://lujqkfe7hbw8" path="res://Assets/Items/area_2d.tscn" id="3_ytnie"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j64qw"]

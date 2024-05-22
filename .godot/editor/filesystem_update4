@@ -1,6 +1,2 @@
-res://Assets/Items/area_2d.tscn
-res://Assets/Scripts/mundo_01.gd
-res://Assets/maps/mundo_01.tscn
-res://Assets/Scripts/area_2d.gd
-res://Assets/maps/mundo_02.tscn
-res://Assets/Scripts/mundo_02.gd
+res://Assets/maps/login.tscn
+res://Assets/Scripts/login.gd
