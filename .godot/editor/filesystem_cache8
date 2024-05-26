@@ -1,8 +1,8 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1716681458
+::res://::1716690610
 753945_games_game_gaming_play_video_icon.svg::CompressedTexture2D::4149151525838813593::1716646725::1716646781::1::::<><>::
 export_presets.cfg::TextFile::-1::1716678861::0::1::::<><>::
-Fantasminha.png::CompressedTexture2D::468616118094445015::1716645948::1716678098::1::::<><>::
+Fantasminha.png::CompressedTexture2D::468616118094445015::1716695773::1716695875::1::::<><>::
 icon.svg::CompressedTexture2D::692515332408703687::1716218763::1716218783::1::::<><>::
 ::res://Assets/::1716669372
 ::res://Assets/butons/::1716678827
@@ -13,36 +13,42 @@ esquerda- pressed.png::CompressedTexture2D::5501525057838920802::1716413089::171
 Esquerda.png::CompressedTexture2D::1058427324842629394::1716412370::1716649112::1::::<><>::
 Junp-pressed.png::CompressedTexture2D::5544990160317544989::1716412955::1716642545::1::::<><>::
 Junp.png::CompressedTexture2D::7945030586832095450::1716413150::1716642545::1::::<><>::
-::res://Assets/efeitos_sonoros/::1716651202
+::res://Assets/efeitos_sonoros/::1716694108
 danger.mp3::AudioStreamMP3::2654505741972808953::1716651164::1716651202::1::::<><>::
+fated encounter.mp3::AudioStreamMP3::4719893274722404318::1716694103::1716694108::1::::<><>::
 leaving home.mp3::AudioStreamMP3::2795673116893197587::1716154000::1716647329::1::::<><>::
 Moeda_sound.mp3::AudioStreamMP3::4199494012523966020::1715096788::1716647329::1::::<><>::
 musica_tema.mp3::AudioStreamMP3::3414248006264885412::1715097124::1716647329::1::::<><>::
 watching you.mp3::AudioStreamMP3::2343244256661884629::1716651200::1716651202::1::::<><>::
 ::res://Assets/Enemys/::1716242688
 enemy.png::CompressedTexture2D::8512310858225430208::1712760841::1716242688::1::::<><>::
-::res://Assets/fontes_game/::1716669372
-::res://Assets/Items/::1716677590
+::res://Assets/fontes_game/::1716695268
+Minecraft.ttf::FontFile::7206077442183156387::1716695263::1716695268::1::::<><>::
+::res://Assets/Items/::1716694399
 abobora.png::CompressedTexture2D::8008830287942986909::1716224341::1716242688::1::::<><>::
 area_2d.tscn::PackedScene::813940393919233289::1716677590::0::1::::<><>::res://Assets/Scripts/area_2d.gd<>uid://b7ua0gf3uw2xk::::res://Assets/Items/Nova_abobora.png<>uid://b03jb2cr802vw::::res://Assets/efeitos_sonoros/Moeda_sound.mp3
 arvore.png::CompressedTexture2D::289073652179314728::1716218949::1716242688::1::::<><>::
 Nova_abobora.png::CompressedTexture2D::4673796204202893492::1716671551::1716671695::1::::<><>::
-::res://Assets/maps/::1716678827
-fim.tscn::PackedScene::324251255553368295::1716677662::0::1::::<><>::res://Assets/Scripts/fim.gd
-login.tscn::PackedScene::2933035576615366079::1716678827::0::1::::<><>::res://Assets/Scripts/login.gd<>uid://8nc5jqmv1xn6::::res://Assets/efeitos_sonoros/watching you.mp3<>uid://gxablc3hysgt::::res://Fantasminha.png
-mundo_01.tscn::PackedScene::5719219074437853937::1716674750::0::1::::<><>::uid://bdom6dr8q2p01::::res://Assets/maps/Untitled.png<>res://Assets/Scripts/mundo_01.gd<>uid://da7ch3dn47eug::::res://Assets/Players/fantasma.tscn<>uid://lujqkfe7hbw8::::res://Assets/Items/area_2d.tscn<>uid://b605s0jr6pkhv::::res://Assets/butons/control.tscn<>uid://bf3ile6fiyxep::::res://Assets/efeitos_sonoros/leaving home.mp3
-mundo_02.tscn::PackedScene::1550017099718418223::1716674470::0::1::::<><>::res://Assets/Scripts/mundo_02.gd<>uid://bdom6dr8q2p01::::res://Assets/maps/Untitled.png<>uid://lujqkfe7hbw8::::res://Assets/Items/area_2d.tscn<>uid://da7ch3dn47eug::::res://Assets/Players/fantasma.tscn<>uid://b605s0jr6pkhv::::res://Assets/butons/control.tscn<>uid://bov5fvx8xphjo::::res://Assets/efeitos_sonoros/musica_tema.mp3
-mundo_03.tscn::PackedScene::287117880672456251::1716677662::0::1::::<><>::uid://bdom6dr8q2p01::::res://Assets/maps/Untitled.png<>res://Assets/Scripts/mundo_03.gd<>uid://da7ch3dn47eug::::res://Assets/Players/fantasma.tscn<>uid://lujqkfe7hbw8::::res://Assets/Items/area_2d.tscn<>uid://b605s0jr6pkhv::::res://Assets/butons/control.tscn<>uid://bd24k660u8ran::::res://Assets/efeitos_sonoros/danger.mp3
+Arvore.tscn::PackedScene::8342176755802576283::1716694399::0::1::::<><>::uid://eebaa7ecauyi::::res://Assets/Items/arvore.png
+::res://Assets/maps/::1716695826
+Campo_final_game.png::CompressedTexture2D::5547504221490581684::1716690518::1716690613::1::::<><>::
+fim.tscn::PackedScene::324251255553368295::1716695825::0::1::::<><>::res://Assets/Scripts/fim.gd<>uid://dawxbpkm7slg2::::res://Assets/fontes_game/Minecraft.ttf
+login.tscn::PackedScene::2933035576615366079::1716695826::0::1::::<><>::res://Assets/Scripts/login.gd<>uid://8nc5jqmv1xn6::::res://Assets/efeitos_sonoros/watching you.mp3<>uid://dawxbpkm7slg2::::res://Assets/fontes_game/Minecraft.ttf
+mundo_01.tscn::PackedScene::5719219074437853937::1716694453::0::1::::<><>::uid://bdom6dr8q2p01::::res://Assets/maps/Untitled.png<>res://Assets/Scripts/mundo_01.gd<>uid://da7ch3dn47eug::::res://Assets/Players/fantasma.tscn<>uid://lujqkfe7hbw8::::res://Assets/Items/area_2d.tscn<>uid://b605s0jr6pkhv::::res://Assets/butons/control.tscn<>uid://bf3ile6fiyxep::::res://Assets/efeitos_sonoros/leaving home.mp3<>uid://dq4aox2rj4j2j::::res://Assets/Items/Arvore.tscn
+mundo_02.tscn::PackedScene::1550017099718418223::1716694453::0::1::::<><>::res://Assets/Scripts/mundo_02.gd<>uid://bdom6dr8q2p01::::res://Assets/maps/Untitled.png<>uid://lujqkfe7hbw8::::res://Assets/Items/area_2d.tscn<>uid://da7ch3dn47eug::::res://Assets/Players/fantasma.tscn<>uid://b605s0jr6pkhv::::res://Assets/butons/control.tscn<>uid://bov5fvx8xphjo::::res://Assets/efeitos_sonoros/musica_tema.mp3
+mundo_03.tscn::PackedScene::287117880672456251::1716687468::0::1::::<><>::uid://bdom6dr8q2p01::::res://Assets/maps/Untitled.png<>res://Assets/Scripts/mundo_03.gd<>uid://da7ch3dn47eug::::res://Assets/Players/fantasma.tscn<>uid://lujqkfe7hbw8::::res://Assets/Items/area_2d.tscn<>uid://b605s0jr6pkhv::::res://Assets/butons/control.tscn<>uid://bd24k660u8ran::::res://Assets/efeitos_sonoros/danger.mp3
+mundo_04.tscn::PackedScene::3707862097548704278::1716694711::0::1::::<><>::res://Assets/maps/mundo_04.gd<>uid://clbit4eu5l6hs::::res://Assets/maps/Campo_final_game.png<>uid://dq4aox2rj4j2j::::res://Assets/Items/Arvore.tscn<>uid://da7ch3dn47eug::::res://Assets/Players/fantasma.tscn<>uid://lujqkfe7hbw8::::res://Assets/Items/area_2d.tscn<>uid://b8il7ni7alnny::::res://Assets/efeitos_sonoros/fated encounter.mp3
+mundo_04.gd::GDScript::-1::1716693435::0::1::::<>Node2D<>::
 Untitled.png::CompressedTexture2D::2626672652041839712::1716220457::1716242688::1::::<><>::
 ::res://Assets/Players/::1716643954
 fantasma.png::CompressedTexture2D::7178257001397573053::1716223624::1716336468::1::::<><>::
 fantasma.tscn::PackedScene::7225457549670977774::1716643954::0::1::::<><>::res://Assets/Scripts/fantasma.gd<>uid://dajg3xy2e8718::::res://Assets/Players/fantasma.png
-::res://Assets/Scripts/::1716677662
-area_2d.gd::GDScript::-1::1716677425::0::1::::<>Area2D<>::
+::res://Assets/Scripts/::1716693434
+area_2d.gd::GDScript::-1::1716685514::0::1::::<>Area2D<>::
 fantasma.gd::GDScript::-1::1716253645::0::1::::<>CharacterBody2D<>::
-fim.gd::GDScript::-1::1716677585::0::1::::<>Control<>::
-game_global.gd::GDScript::-1::1716254099::0::1::::<>Node<>::
+fim.gd::GDScript::-1::1716687468::0::1::::<>Control<>::
+game_global.gd::GDScript::-1::1716685229::0::1::::<>Node<>::
 login.gd::GDScript::-1::1716657034::0::1::::<>Control<>::
 mundo_01.gd::GDScript::-1::1716673727::0::1::::<>Node2D<>::
-mundo_02.gd::GDScript::-1::1716654645::0::1::::<>Node2D<>::
-mundo_03.gd::GDScript::-1::1716677662::0::1::::<>Node2D<>::
+mundo_02.gd::GDScript::-1::1716681510::0::1::::<>Node2D<>::
+mundo_03.gd::GDScript::-1::1716693434::0::1::::<>Node2D<>::

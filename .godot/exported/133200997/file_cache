@@ -1,8 +1,10 @@
 res://Assets/Items/area_2d.tscn::f23fe6723594f83369bb4c30b1b6bf15::1716677590::res://.godot/exported/133200997/export-c24d4430eb4cff877089a9c9f8657e16-area_2d.scn
-res://Assets/maps/login.tscn::0d30bdfcda9193f0860ef098c8a1bb59::1716678827::res://.godot/exported/133200997/export-349cc50ad6453a67829a3280fef0f011-login.scn
-res://Assets/maps/mundo_01.tscn::2b9857cdde4e01319e7fda5cddb650b7::1716674750::res://.godot/exported/133200997/export-ebdefe95a2755280eadccc10afd292d0-mundo_01.scn
-res://Assets/maps/mundo_02.tscn::11fe40eafe2bd844d60f0e7ec2c37b5c::1716674470::res://.godot/exported/133200997/export-c40c9b912d3858c2b5522ea8908ef7e8-mundo_02.scn
-res://Assets/maps/mundo_03.tscn::10b5d6f45aceeba5a264cd77fc28f9a3::1716677662::res://.godot/exported/133200997/export-67801fc5fd0a476db373c4022a2c9632-mundo_03.scn
+res://Assets/maps/login.tscn::213fb3520ec90f775444794cd97c8787::1716695902::res://.godot/exported/133200997/export-349cc50ad6453a67829a3280fef0f011-login.scn
+res://Assets/maps/mundo_01.tscn::1e6b243fb5936961cb367976899d1557::1716694453::res://.godot/exported/133200997/export-ebdefe95a2755280eadccc10afd292d0-mundo_01.scn
+res://Assets/maps/mundo_02.tscn::fd1eece4b1d7bbec98806904a07ad577::1716694453::res://.godot/exported/133200997/export-c40c9b912d3858c2b5522ea8908ef7e8-mundo_02.scn
+res://Assets/maps/mundo_03.tscn::10b5d6f45aceeba5a264cd77fc28f9a3::1716687468::res://.godot/exported/133200997/export-67801fc5fd0a476db373c4022a2c9632-mundo_03.scn
 res://Assets/Players/fantasma.tscn::669ab9cf7f1cdb17a4f3600764fc103c::1716643954::res://.godot/exported/133200997/export-ea777a3154ad3d6b321c77aa110b7072-fantasma.scn
 res://Assets/butons/control.tscn::f05823d983923f95bb466636b95b7171::1716678827::res://.godot/exported/133200997/export-95674ff196435b78d9ad6f160d341035-control.scn
-res://Assets/maps/fim.tscn::406551e26973723c107b4e9d3ee94ba9::1716677662::res://.godot/exported/133200997/export-581205a48ca72ba2377c5cbb6cca3e9c-fim.scn
+res://Assets/maps/fim.tscn::d3ede21bc12cff4261048d83dbb910e6::1716695902::res://.godot/exported/133200997/export-581205a48ca72ba2377c5cbb6cca3e9c-fim.scn
+res://Assets/Items/Arvore.tscn::bfaf41f292412c65e4da03edd9eb60bc::1716694399::res://.godot/exported/133200997/export-bfa1f4240881f6acbff83c54ba8594e3-Arvore.scn
+res://Assets/maps/mundo_04.tscn::759ca19c9dc789a56cad92a70c6bfab5::1716694711::res://.godot/exported/133200997/export-f059683e9cefbb35166eebae297c36b7-mundo_04.scn

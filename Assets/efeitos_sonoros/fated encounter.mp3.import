@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b8il7ni7alnny"
+path="res://.godot/imported/fated encounter.mp3-5e1e905a6c015bebe22f682027c33640.mp3str"
+
+[deps]
+
+source_file="res://Assets/efeitos_sonoros/fated encounter.mp3"
+dest_files=["res://.godot/imported/fated encounter.mp3-5e1e905a6c015bebe22f682027c33640.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

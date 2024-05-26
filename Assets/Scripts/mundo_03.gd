@@ -8,4 +8,4 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if(GameGlobal.aboboras==11):
-		get_tree().change_scene_to_file("res://Assets/maps/fim.tscn")
+		get_tree().change_scene_to_file("res://Assets/maps/mundo_04.tscn")

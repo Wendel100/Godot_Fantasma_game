@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://evcmuweolh16"]
+[gd_scene load_steps=3 format=3 uid="uid://evcmuweolh16"]
 
 [ext_resource type="Script" path="res://Assets/Scripts/fim.gd" id="1_g7jic"]
+[ext_resource type="FontFile" uid="uid://dawxbpkm7slg2" path="res://Assets/fontes_game/Minecraft.ttf" id="2_n1vxq"]
 
 [node name="Fim" type="Control"]
 layout_mode = 3
@@ -14,11 +15,13 @@ script = ExtResource("1_g7jic")
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="TOTAL" type="Label" parent="CanvasLayer"]
-offset_left = 331.0
-offset_top = 205.0
-offset_right = 371.0
-offset_bottom = 228.0
+offset_left = 327.0
+offset_top = 341.0
+offset_right = 367.0
+offset_bottom = 373.0
 scale = Vector2(4, 4)
+theme_override_fonts/font = ExtResource("2_n1vxq")
+theme_override_font_sizes/font_size = 40
 text = "0"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -29,9 +32,15 @@ offset_top = 45.0
 offset_right = 339.0
 offset_bottom = 68.0
 scale = Vector2(3, 3)
-text = "Total de moedas
+theme_override_fonts/font = ExtResource("2_n1vxq")
+text = "Meus parabens
+voce terminou
+
+ o jogo
+Total de moedas
 
 "
+horizontal_alignment = 1
 
 [node name="Panel" type="Panel" parent="."]
 layout_mode = 0
@@ -40,11 +49,12 @@ offset_bottom = 639.0
 
 [node name="Label" type="Label" parent="Panel"]
 layout_mode = 0
-offset_left = 235.0
-offset_top = 339.0
-offset_right = 334.0
-offset_bottom = 362.0
+offset_left = 255.0
+offset_top = 511.0
+offset_right = 360.0
+offset_bottom = 534.0
 scale = Vector2(3, 3)
+theme_override_fonts/font = ExtResource("2_n1vxq")
 text = "FIM DE JOGO"
 horizontal_alignment = 1
 

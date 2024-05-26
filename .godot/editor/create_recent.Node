@@ -1,14 +1,14 @@
+AnimatedSprite2D
+Sprite2D
+AudioStreamPlayer
 TileMap
 TextureRect
-AnimatedSprite2D
 Label
 TextEdit
 CanvasLayer
 Panel
-AudioStreamPlayer
 AudioStreamPlayer2D
 Camera2D
 TouchScreenButton
 Control
 LineEdit
-Button

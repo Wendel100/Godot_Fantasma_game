@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dq4aox2rj4j2j"]
+
+[ext_resource type="Texture2D" uid="uid://eebaa7ecauyi" path="res://Assets/Items/arvore.png" id="1_vsppy"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(468, 143)
+texture = ExtResource("1_vsppy")
