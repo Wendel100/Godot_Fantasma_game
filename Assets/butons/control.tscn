@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=3 uid="uid://b605s0jr6pkhv"]
+
+[ext_resource type="Texture2D" uid="uid://5ihh0nbri2kc" path="res://Assets/butons/Direita.png" id="1_0okn8"]
+[ext_resource type="Texture2D" uid="uid://l2uh6lck6txb" path="res://Assets/butons/direita- pressed.png" id="2_obaip"]
+[ext_resource type="Texture2D" uid="uid://pcye41jiiohm" path="res://Assets/butons/Esquerda.png" id="3_w1nwn"]
+[ext_resource type="Texture2D" uid="uid://ckm8kw5kiltli" path="res://Assets/butons/esquerda- pressed.png" id="4_ek3ha"]
+[ext_resource type="Texture2D" uid="uid://dlgvq05fdk763" path="res://Assets/butons/Junp.png" id="5_r5qt3"]
+[ext_resource type="Texture2D" uid="uid://clabgbssg3elx" path="res://Assets/butons/Junp-pressed.png" id="6_hem66"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 354.0
+offset_top = -58.0
+offset_right = 394.0
+offset_bottom = -18.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="BNT_direita" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2(437, 505)
+scale = Vector2(5, 5)
+texture_normal = ExtResource("1_0okn8")
+texture_pressed = ExtResource("2_obaip")
+action = "ui_right"
+
+[node name="BNT_esquerda" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2(1, 523)
+scale = Vector2(5, 4.278)
+texture_normal = ExtResource("3_w1nwn")
+texture_pressed = ExtResource("4_ek3ha")
+action = "ui_left"
+
+[node name="BNT_pulo" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2(1213, 497)
+scale = Vector2(5, 5)
+texture_normal = ExtResource("5_r5qt3")
+texture_pressed = ExtResource("6_hem66")
+action = "ui_accept"

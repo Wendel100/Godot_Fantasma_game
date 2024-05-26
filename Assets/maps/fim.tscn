@@ -1,0 +1,54 @@
+[gd_scene load_steps=2 format=3 uid="uid://evcmuweolh16"]
+
+[ext_resource type="Script" path="res://Assets/Scripts/fim.gd" id="1_g7jic"]
+
+[node name="Fim" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_g7jic")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TOTAL" type="Label" parent="CanvasLayer"]
+offset_left = 331.0
+offset_top = 205.0
+offset_right = 371.0
+offset_bottom = 228.0
+scale = Vector2(4, 4)
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = 206.0
+offset_top = 45.0
+offset_right = 339.0
+offset_bottom = 68.0
+scale = Vector2(3, 3)
+text = "Total de moedas
+
+"
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 800.0
+offset_bottom = 639.0
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 235.0
+offset_top = 339.0
+offset_right = 334.0
+offset_bottom = 362.0
+scale = Vector2(3, 3)
+text = "FIM DE JOGO"
+horizontal_alignment = 1
+
+[connection signal="focus_entered" from="." to="." method="_on_focus_entered"]
+[connection signal="visibility_changed" from="." to="." method="_on_visibility_changed"]
+[connection signal="ready" from="CanvasLayer" to="." method="_on_canvas_layer_ready"]
+[connection signal="visibility_changed" from="CanvasLayer" to="." method="_on_canvas_layer_visibility_changed"]

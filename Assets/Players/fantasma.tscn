@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://da7ch3dn47eug"]
 
 [ext_resource type="Script" path="res://Assets/Scripts/fantasma.gd" id="1_0ntyj"]
-[ext_resource type="Texture2D" uid="uid://dajg3xy2e8718" path="res://Assets/maps/Players/fantasma.png" id="1_6osht"]
+[ext_resource type="Texture2D" uid="uid://dajg3xy2e8718" path="res://Assets/Players/fantasma.png" id="1_6osht"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_q4qp1"]
 height = 28.0
@@ -42,3 +42,7 @@ sprite_frames = SubResource("SpriteFrames_o23ce")
 animation = &"normal"
 autoplay = "normal"
 frame_progress = 0.18279
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(163, 53)
+zoom = Vector2(4, 4)

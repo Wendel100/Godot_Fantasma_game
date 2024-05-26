@@ -1,2 +1,9 @@
-res://Assets/maps/login.tscn
-res://Assets/Scripts/login.gd
+res://Assets/maps/mundo_02.tscn
+res://Assets/Scripts/mundo_02.gd
+res://Assets/maps/mundo_03.tscn
+res://Assets/Scripts/mundo_03.gd
+res://Assets/maps/mundo_01.tscn
+res://Assets/Scripts/game_global.gd
+res://Assets/maps/fim.tscn
+res://Assets/Scripts/area_2d.gd
+res://Assets/Scripts/fim.gd
