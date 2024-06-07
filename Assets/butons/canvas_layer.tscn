@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://ce8tp3klaht1t"]
+
+[ext_resource type="Script" path="res://Assets/Scripts/Times_level.gd" id="1_3knbq"]
+[ext_resource type="FontFile" uid="uid://dawxbpkm7slg2" path="res://Assets/fontes_game/Minecraft.ttf" id="2_tajni"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_3knbq")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 761.0
+offset_top = 3.0
+offset_right = 809.0
+offset_bottom = 43.0
+scale = Vector2(2, 2)
+theme_override_fonts/font = ExtResource("2_tajni")
+theme_override_font_sizes/font_size = 40
+text = "60"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

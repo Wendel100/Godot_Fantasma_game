@@ -18,22 +18,22 @@ offset_bottom = -18.0
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="BNT_direita" type="TouchScreenButton" parent="CanvasLayer"]
-position = Vector2(437, 505)
-scale = Vector2(5, 5)
+position = Vector2(401, 555)
+scale = Vector2(6, 6)
 texture_normal = ExtResource("1_0okn8")
 texture_pressed = ExtResource("2_obaip")
 action = "ui_right"
 
 [node name="BNT_esquerda" type="TouchScreenButton" parent="CanvasLayer"]
-position = Vector2(1, 523)
-scale = Vector2(5, 4.278)
+position = Vector2(6, 556)
+scale = Vector2(6, 6)
 texture_normal = ExtResource("3_w1nwn")
 texture_pressed = ExtResource("4_ek3ha")
 action = "ui_left"
 
 [node name="BNT_pulo" type="TouchScreenButton" parent="CanvasLayer"]
-position = Vector2(1213, 497)
-scale = Vector2(5, 5)
+position = Vector2(1154, 554)
+scale = Vector2(6, 6)
 texture_normal = ExtResource("5_r5qt3")
 texture_pressed = ExtResource("6_hem66")
 action = "ui_accept"

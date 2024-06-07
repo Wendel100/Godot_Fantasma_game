@@ -1,8 +1,7 @@
-res://Assets/maps/mundo_04.tscn
-res://Assets/Scripts/mundo_03.gd
-res://Assets/maps/mundo_04.gd
-res://Assets/maps/mundo_02.tscn
+res://Assets/Scripts/enimigo.gd
 res://Assets/maps/mundo_01.tscn
-res://Assets/Items/Arvore.tscn
-res://Assets/maps/fim.tscn
-res://Assets/maps/login.tscn
+res://Assets/Enemys/enimigo.tscn
+res://Assets/Items/area_2d.tscn
+res://Assets/Scripts/area_2d.gd
+res://Assets/Scripts/fantasma.gd
+res://Assets/Players/fantasma.tscn

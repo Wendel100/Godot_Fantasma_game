@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://bs3d7g0yrsdms"]
+[gd_scene load_steps=10 format=3 uid="uid://bs3d7g0yrsdms"]
 
 [ext_resource type="Script" path="res://Assets/maps/mundo_04.gd" id="1_4dh2i"]
 [ext_resource type="Texture2D" uid="uid://clbit4eu5l6hs" path="res://Assets/maps/Campo_final_game.png" id="1_o0v14"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://da7ch3dn47eug" path="res://Assets/Players/fantasma.tscn" id="2_vx4cg"]
 [ext_resource type="PackedScene" uid="uid://lujqkfe7hbw8" path="res://Assets/Items/area_2d.tscn" id="4_7hg87"]
 [ext_resource type="AudioStream" uid="uid://b8il7ni7alnny" path="res://Assets/efeitos_sonoros/fated encounter.mp3" id="5_tc6es"]
+[ext_resource type="PackedScene" uid="uid://b605s0jr6pkhv" path="res://Assets/butons/control.tscn" id="7_p5ei4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h7ste"]
 texture = ExtResource("1_o0v14")
@@ -232,3 +233,9 @@ position = Vector2(147, 213)
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_tc6es")
 autoplay = true
+
+[node name="Control" parent="." instance=ExtResource("7_p5ei4")]
+offset_left = 521.0
+offset_top = 1020.0
+offset_right = 561.0
+offset_bottom = 1060.0

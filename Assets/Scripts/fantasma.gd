@@ -26,5 +26,3 @@ func _physics_process(delta):
 		animation.scale.x =direction
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
-
-	move_and_slide()

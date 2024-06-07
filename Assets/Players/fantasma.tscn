@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://da7ch3dn47eug"]
+[gd_scene load_steps=8 format=3 uid="uid://da7ch3dn47eug"]
 
 [ext_resource type="Script" path="res://Assets/Scripts/fantasma.gd" id="1_0ntyj"]
 [ext_resource type="Texture2D" uid="uid://dajg3xy2e8718" path="res://Assets/Players/fantasma.png" id="1_6osht"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_q4qp1"]
-height = 28.0
+radius = 6.0
+height = 26.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dt012"]
 atlas = ExtResource("1_6osht")
@@ -28,6 +29,10 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ghqr8"]
+radius = 11.0
+height = 36.0
+
 [node name="Fantasma" type="CharacterBody2D"]
 script = ExtResource("1_0ntyj")
 
@@ -36,13 +41,21 @@ position = Vector2(153, 67)
 shape = SubResource("CapsuleShape2D_q4qp1")
 
 [node name="fantasma2d" type="AnimatedSprite2D" parent="."]
-position = Vector2(154.125, 63.75)
-scale = Vector2(0.4775, 0.455)
+position = Vector2(155, 64)
+scale = Vector2(0.4075, 0.388299)
 sprite_frames = SubResource("SpriteFrames_o23ce")
 animation = &"normal"
 autoplay = "normal"
 frame_progress = 0.18279
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(163, 53)
+position = Vector2(158, 51)
 zoom = Vector2(4, 4)
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(154, 63)
+shape = SubResource("CapsuleShape2D_ghqr8")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

@@ -13,7 +13,7 @@ config_version=5
 config/name="Fantasminha_Camarada"
 run/main_scene="res://Assets/maps/login.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://753945_games_game_gaming_play_video_icon.svg"
+config/icon="res://Fantasminha.jpg"
 
 [autoload]
 

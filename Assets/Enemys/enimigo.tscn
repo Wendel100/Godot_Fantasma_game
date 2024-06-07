@@ -1,0 +1,70 @@
+[gd_scene load_steps=8 format=3 uid="uid://xcopv4fojj0a"]
+
+[ext_resource type="Script" path="res://Assets/Scripts/enimigo.gd" id="1_2u15m"]
+[ext_resource type="Texture2D" uid="uid://dtjorsxtu14tw" path="res://Assets/Enemys/enemy.png" id="2_y37hj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_73vpt"]
+atlas = ExtResource("2_y37hj")
+region = Rect2(0, 0, 41, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t33t8"]
+atlas = ExtResource("2_y37hj")
+region = Rect2(41, 0, 41, 41)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_d1igb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_73vpt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t33t8")
+}],
+"loop": true,
+"name": &"abor",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ut8bk"]
+radius = 15.0333
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w2lar"]
+size = Vector2(24.75, 6)
+
+[node name="inimigo" type="CharacterBody2D"]
+script = ExtResource("1_2u15m")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(512, 132)
+sprite_frames = SubResource("SpriteFrames_d1igb")
+animation = &"abor"
+autoplay = "abor"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(513, 135)
+shape = SubResource("CircleShape2D_ut8bk")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(512, 137)
+target_position = Vector2(-19, 0)
+collision_mask = 2
+collide_with_areas = true
+
+[node name="hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(512.625, 126)
+shape = SubResource("RectangleShape2D_w2lar")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = 495.0
+offset_top = 117.0
+offset_right = 535.0
+offset_bottom = 140.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="body_entered" from="hitbox" to="." method="_on_hitbox_body_entered"]
